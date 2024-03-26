@@ -1,0 +1,140 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.logo{
+    height: auto;
+    width: 3%;
+
+}
+.login{
+    margin-top: 50px;
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px #3eb489;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    color:antiquewhite;
+    text-align: center;
+    font-size: 36;
+}
+.wrapper .input{
+    width: 100%;
+    height: 50px;
+    margin: 35px 0;
+    position: relative;
+}
+.input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,2);
+    border-radius: 40px;
+    color:bisque;
+    font-size: large;
+    padding: 20px 45px 20px 20px;
+}
+.input input::placeholder{
+    color:rgb(232, 138, 15);
+}
+.wrapper .remember-forget{
+    justify-content: space-between;
+    display:flex;
+    color: antiquewhite;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forget label input{
+    accent-color: antiquewhite;
+    margin-right: 3px;
+}
+.remember-forget a{
+    color: #eda109;
+    text-decoration: none;
+}
+.remember-forget a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #1db954;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 120px rgb(135, 222, 219);
+    cursor: pointer;
+    font-size: 18px;
+    color:#000000
+}
+.wrapper .btn:hover{
+    background-color:#1db954;
+}
+.register p{
+    color:antiquewhite;
+}
+.register p a{
+    color:#3eb489;
+    text-decoration: none;
+    font-weight: 600;
+    justify-content: center;
+    margin:6;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+.btn2{
+    width: 100%;
+    height: 45px;
+    background:transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 120px rgb(135, 222, 219);
+    cursor: pointer;
+    font-size: 18px;
+    color:#000000
+}
+/*   Google login   */
+.google-login-btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #d6523e;
+    cursor: pointer;
+  }
+.google-login-btn .icon {
+    display: inline-flex;
+    height: 100%;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #58e75b;
+    margin-right: 15px;
+  }
+.google-login-btn .icon svg {
+    fill: #fff;
+  }
+.google-login-btn:hover {
+    background-color: #d44a36;
+  }
+.google-login-btn:hover .icon {
+    background-color: #c63f2a;
+  }
